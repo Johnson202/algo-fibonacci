@@ -36,3 +36,11 @@ To run Jest
 ```sh
 npm test
 ```
+
+To run the entire process (in Docker):
+
+```sh
+docker build -t jest-tests .
+docker run --rm jest-tests
+echo $?
+```
