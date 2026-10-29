@@ -5,7 +5,7 @@ One of the most popular coding challenges is to write an algorithm to return the
 Below are the first few values of the sequence:
 
 ```
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144....
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...
 ```
 
 Your challenge today is to write an algorithm that, given a number `n`, return the n-th Fibonacci Number. Keep in mind that the first two numbers in the fibonacci sequence are always [0,1]
