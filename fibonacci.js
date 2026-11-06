@@ -1,9 +1,13 @@
-function fibonacci(n) {
+function fibonacci(n, memo = {}) {
   if (n == 0 || n == 1) {
     return n;
+  };
+  if (n in memo) {
+    return memo[n];
   }
   else {
-    return fibonacci(n - 1) + fibonacci(n - 2);
+    memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
+    return memo[n];
   };
 };
 
